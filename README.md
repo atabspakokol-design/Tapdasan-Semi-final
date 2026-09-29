@@ -10,6 +10,9 @@ A modern **Task Manager web application** featuring a futuristic **glassmorphism
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
 ![UI](https://img.shields.io/badge/UI-Glassmorphism-00f5ff)
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f432fb16-a849-4992-928e-a13fbaf13277" />
+
+
 ---
 
 ## ✨ Features
@@ -27,7 +30,8 @@ A modern **Task Manager web application** featuring a futuristic **glassmorphism
 ## 🗂️ Project Structure
 
 ### Classic PHP Version
-```
+
+```javascript
 taskflow/
 ├── index.php      # Main dashboard (tasks table, add form, sidebar, stats)
 ├── edit.php       # Edit task page (glassmorphism design)
@@ -36,7 +40,8 @@ taskflow/
 ```
 
 ### Laravel Version (structure overview)
-```
+
+```javascript
 taskflow-laravel/
 ├── app/
 │   ├── Http/Controllers/TaskController.php
@@ -54,11 +59,13 @@ taskflow-laravel/
 ## 🛠️ Requirements
 
 ### Classic PHP Version
+
 - **PHP** >= 7.4 (tested on PHP 8.x)
 - **MySQL** / MariaDB
 - **XAMPP** / WAMP / Laragon (for local development)
 
 ### Laravel Version
+
 - **PHP** >= 8.1 (with extensions: `bcmath`, `ctype`, `json`, `mbstring`, `openssl`, `pdo`, `tokenizer`, `xml`)
 - **Composer**
 - **Node.js** & **NPM** (for Vite / asset building)
@@ -72,7 +79,7 @@ taskflow-laravel/
 
 Place the project folder inside your web server directory:
 
-```
+```javascript
 C:\xampp\htdocs\taskflow
 ```
 
@@ -113,7 +120,7 @@ if (!$conn) {
 1. Start **Apache** and **MySQL** in the XAMPP Control Panel
 2. Open your browser and visit:
 
-```
+```javascript
 http://localhost/taskflow/index.php
 ```
 
@@ -297,7 +304,7 @@ Visit: `http://localhost:8000/tasks`
 ## 📖 Usage
 
 | Action | How |
-|--------|-----|
+| --- | --- |
 | ➕ Add task | Fill in the form at the top, click **Add Task** |
 | ✏️ Edit task | Click the ✏️ icon on any row |
 | ✅ Complete / ↩️ Pending | Click the toggle icon on any row |
@@ -309,7 +316,7 @@ Visit: `http://localhost:8000/tasks`
 ## 🧩 Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+| --- | --- |
 | Backend (Classic) | PHP (procedural, MySQLi) |
 | Backend (Laravel) | Laravel 10.x (MVC, Eloquent ORM) |
 | Database | MySQL / MariaDB |
@@ -323,7 +330,7 @@ Visit: `http://localhost:8000/tasks`
 
 > Add screenshots of the dashboard (dark mode & light mode) here.
 
-```
+```javascript
 screenshots/
 ├── dashboard-dark.png
 ├── dashboard-light.png
